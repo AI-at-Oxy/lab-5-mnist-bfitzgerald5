@@ -1,0 +1,23 @@
+artifact_path: file:///c:/Users/benfi/DL-lab/lab_1/DL-lab/lab_6/mlruns/0/models/m-8e4c26217204430f8194152b4accc15b/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.14
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.10.0+cu126
+mlflow_version: 3.10.0
+model_id: m-8e4c26217204430f8194152b4accc15b
+model_size_bytes: 1694797
+model_uuid: m-8e4c26217204430f8194152b4accc15b
+prompts: null
+run_id: 6faa74df6f9143b6a0f6f76342768e4d
+utc_time_created: '2026-03-23 20:10:09.165267'
